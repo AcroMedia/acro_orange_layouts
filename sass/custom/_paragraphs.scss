@@ -1,0 +1,23 @@
+// Orange Layouts Paragraphs.
+.orange-layouts-paragraph__content {
+  background: $c-lighter-grey;
+  border-radius: 10px;
+}
+.orange-layouts-paragraph__inner {
+  margin: 0;
+  padding: 0 20px 20px;
+}
+.orange-layouts-paragraph__label {
+  padding: 10px;
+  color: $c-blue;
+  text-transform: uppercase;
+  text-align: center;
+  background: $c-light-grey;
+  border-radius: 10px 10px 0 0;
+}
+.orange-layouts-paragraph__preview {
+  width: 100%;
+  min-height: 50px;
+  max-height: 200px;
+  overflow: auto;
+}

@@ -1,0 +1,10 @@
+name: 'Orange Layouts'
+type: module
+description: 'Provides various custom layout configurations.'
+package: 'Acro Media Inc.'
+version: '8.x-1.0'
+core: '8.x'
+dependencies:
+  - drupal:layout_discovery
+  - drupal:paragraphs
+  - drupal:entity_reference_layout

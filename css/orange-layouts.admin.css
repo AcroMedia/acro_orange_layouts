@@ -1,0 +1,8 @@
+/* Orange Layouts - Admin Styles. */
+
+/* Force hide ERL layout options since they cannot be currently configured. */
+/* https://www.drupal.org/project/entity_reference_layout/issues/3038533. */
+/* We use section options on the 'section' paragraph instead. */
+.erl-entity-form details[data-drupal-selector="edit-field-layout-reference-form-inline-entity-form-layout-options-options"] {
+  display: none !important;
+}

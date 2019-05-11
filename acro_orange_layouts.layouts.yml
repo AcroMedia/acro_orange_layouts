@@ -1,0 +1,110 @@
+orange_1_col:
+  label: '1 column'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-1-col
+  default_region: content
+  icon_map:
+    - [content]
+  regions:
+    content:
+      label: Content
+
+orange_2_col:
+  label: '2 column'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-2-col
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
+orange_2_col_25_75:
+  label: '2 column 25/75'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-2-col-25-75
+  default_region: first
+  icon_map:
+    - [first, second, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
+orange_2_col_75_25:
+  label: '2 column 75/25'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-2-col-75-25
+  default_region: first
+  icon_map:
+    - [first, first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
+orange_3_col:
+  label: '3 column'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-3-col
+  default_region: first
+  icon_map:
+    - [first, second, third]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+
+orange_3_col_25_50_25:
+  label: '3 column 25/50/25'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-3-col-25-50-25
+  default_region: first
+  icon_map:
+    - [first, second, second, third]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+
+orange_4_col:
+  label: '4 column'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-4-col
+  default_region: first
+  icon_map:
+    - [first, second, third, fourth]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
+    fourth:
+      label: Fourth

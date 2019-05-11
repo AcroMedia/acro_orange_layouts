@@ -1,0 +1,11 @@
+admin:
+  version: 1.x
+  css:
+    theme:
+      css/orange-layouts.admin.css: {}
+
+orange-layouts:
+  version: 1.x
+  css:
+    layout:
+      css/orange-layouts.css: {}
