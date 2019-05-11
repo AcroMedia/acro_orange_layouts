@@ -1,0 +1,7 @@
+{
+  "name": "acromedia/acro_orange_layouts",
+  "type": "drupal-module",
+  "description": "A module providing various layouts for Drupal's Layout API.",
+  "homepage": "https://github.com/AcroMedia/acro_orange_layouts",
+  "license": "GPL-2.0+"
+}
