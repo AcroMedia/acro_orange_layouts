@@ -9,8 +9,8 @@ Provides various layout configurations to be used by Drupal's Layout API and Ent
 ## Requirements
 
 - Core: Layout Discovery
-- Contrib: Paragraphs
-- Contrib: Entity Reference with Layout
+- Contrib: [Paragraphs](https://www.drupal.org/project/paragraphs)
+- Contrib: [Entity Reference with Layout](https://www.drupal.org/project/entity_reference_layout)
 
 ## Installation
 
