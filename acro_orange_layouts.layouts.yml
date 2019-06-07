@@ -56,6 +56,36 @@ orange_2_col_75_25:
     second:
       label: Second
 
+orange_2_col_33_66:
+  label: '2 column 33/66'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-2-col-33-66
+  default_region: first
+  icon_map:
+    - [first, first, second, second, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
+orange_2_col_66_33:
+  label: '2 column 66/33'
+  category: 'Orange Layouts'
+  class: '\Drupal\acro_orange_layouts\Plugin\Layout\OrangeLayoutsBase'
+  path: templates/layouts
+  template: orange-2-col-66-33
+  default_region: first
+  icon_map:
+    - [first, first, first, second, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
 orange_3_col:
   label: '3 column'
   category: 'Orange Layouts'
